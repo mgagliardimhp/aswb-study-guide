@@ -1,0 +1,178 @@
+[
+  {
+    "id": "d1-ia-theories-human-development",
+    "domainId": "domain-1",
+    "subdomainId": "d1-ia",
+    "title": "Theories of human development throughout the lifespan",
+    "tags": [
+      "development",
+      "lifespan",
+      "recall"
+    ]
+  },
+  {
+    "id": "d1-ib-family-dynamics",
+    "domainId": "domain-1",
+    "subdomainId": "d1-ib",
+    "title": "Family dynamics and functioning and effects on systems",
+    "tags": [
+      "family",
+      "systems",
+      "application"
+    ]
+  },
+  {
+    "id": "d1-ic-cultural-competence",
+    "domainId": "domain-1",
+    "subdomainId": "d1-ic",
+    "title": "Principles of culturally competent social work practice",
+    "tags": [
+      "diversity",
+      "justice",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "d2-iia-components-bps",
+    "domainId": "domain-2",
+    "subdomainId": "d2-iia",
+    "title": "The components of a biopsychosocial assessment",
+    "tags": [
+      "assessment",
+      "foundation",
+      "recall"
+    ]
+  },
+  {
+    "id": "d2-iib-risk-assessment-methods",
+    "domainId": "domain-2",
+    "subdomainId": "d2-iib",
+    "title": "Risk assessment methods",
+    "tags": [
+      "risk",
+      "safety",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "d2-iib-danger-self-others",
+    "domainId": "domain-2",
+    "subdomainId": "d2-iib",
+    "title": "Indicators and risk factors of danger to self and others",
+    "tags": [
+      "danger",
+      "imminence",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "d2-iib-dsm-use",
+    "domainId": "domain-2",
+    "subdomainId": "d2-iib",
+    "title": "The use of the Diagnostic and Statistical Manual of the American Psychiatric Association",
+    "tags": [
+      "diagnosis",
+      "DSM",
+      "application"
+    ]
+  },
+  {
+    "id": "d2-iib-trauma-assessment",
+    "domainId": "domain-2",
+    "subdomainId": "d2-iib",
+    "title": "Methods used to assess trauma",
+    "tags": [
+      "trauma",
+      "assessment",
+      "application"
+    ]
+  },
+  {
+    "id": "d2-iic-treatment-plans",
+    "domainId": "domain-2",
+    "subdomainId": "d2-iic",
+    "title": "The components of intervention, treatment, and service plans",
+    "tags": [
+      "planning",
+      "treatment",
+      "application"
+    ]
+  },
+  {
+    "id": "d3-iiia-building-alliance",
+    "domainId": "domain-3",
+    "subdomainId": "d3-iiia",
+    "title": "Principles and techniques for building and maintaining a helping relationship",
+    "tags": [
+      "alliance",
+      "engagement",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "d3-iiib-crisis-intervention",
+    "domainId": "domain-3",
+    "subdomainId": "d3-iiib",
+    "title": "Crisis intervention and treatment approaches",
+    "tags": [
+      "crisis",
+      "safety",
+      "application"
+    ]
+  },
+  {
+    "id": "d3-iiic-case-management",
+    "domainId": "domain-3",
+    "subdomainId": "d3-iiic",
+    "title": "The components of case management",
+    "tags": [
+      "case-management",
+      "systems",
+      "recall"
+    ]
+  },
+  {
+    "id": "d3-iiid-team-collaboration",
+    "domainId": "domain-3",
+    "subdomainId": "d3-iiid",
+    "title": "The process of interdisciplinary and intradisciplinary team collaboration",
+    "tags": [
+      "teams",
+      "collaboration",
+      "application"
+    ]
+  },
+  {
+    "id": "d4-iva-ethical-dilemmas",
+    "domainId": "domain-4",
+    "subdomainId": "d4-iva",
+    "title": "Techniques to identify and resolve ethical dilemmas",
+    "tags": [
+      "ethics",
+      "decision-making",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "d4-ivb-confidentiality",
+    "domainId": "domain-4",
+    "subdomainId": "d4-ivb",
+    "title": "Legal and ethical issues regarding confidentiality",
+    "tags": [
+      "confidentiality",
+      "legal",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "d4-ivc-countertransference",
+    "domainId": "domain-4",
+    "subdomainId": "d4-ivc",
+    "title": "The impact of transference and countertransference in the social worker-client relationship",
+    "tags": [
+      "use-of-self",
+      "clinical",
+      "application"
+    ]
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "ksaId": "d2-iib-risk-assessment-methods",
+    "plainEnglish": "Risk assessment is the structured clinical process of figuring out whether there is current danger, how immediate it is, and what must happen before anything else. On the exam, this often means you pause the urge to reassure, educate, or refer and instead determine whether there is a concrete safety issue right now.",
+    "examIsTesting": "Whether you can recognize when safety assessment must come before supportive counseling, long-term planning, or exploration. It is usually testing sequence, not just knowledge.",
+    "redFlags": [
+      "specific plan",
+      "access to means",
+      "command hallucinations",
+      "recent attempt or violent act",
+      "clear target, time frame, or intent"
+    ],
+    "commonDistractors": [
+      "jumping into treatment before assessing immediacy of danger",
+      "choosing a warm empathic response when the stem is really about safety triage",
+      "referring out before the core risk facts are known",
+      "over-focusing on history when the question is asking about current threat"
+    ],
+    "miniExamples": [
+      {
+        "title": "Threat to another person",
+        "text": "A client reports voices telling them to hurt a teacher. FIRST, determine whether there is a specific plan, means, and immediacy."
+      },
+      {
+        "title": "Suicidal ideation",
+        "text": "A client says, 'My family would be better off without me.' Before reassurance or coping skills, assess intent, plan, means, and timeframe."
+      }
+    ],
+    "qualifierNotes": {
+      "FIRST": "Usually means start with safety, assessment, stabilization, or clarification before intervention.",
+      "NEXT": "Assumes the first appropriate step already happened. Pick the logical second move.",
+      "BEST": "Several options may be decent. Choose the one most aligned with social work role, safety, and sequence.",
+      "MOST": "Look for the answer most directly supported by the stem, not the one that is generally true in all cases."
+    }
+  },
+  {
+    "ksaId": "d2-iib-danger-self-others",
+    "plainEnglish": "This KSA is about spotting the signs that elevate concern from distress to possible imminent danger. The exam wants you to notice threat indicators hiding inside the vignette and respond proportionally.",
+    "examIsTesting": "Whether you can distinguish ordinary emotional pain from a situation that requires a more urgent evaluation of danger to self or others.",
+    "redFlags": [
+      "recent threats",
+      "history of violence or attempts",
+      "psychosis with commands",
+      "agitation plus access to a victim or weapon",
+      "sudden calm after severe suicidal distress"
+    ],
+    "commonDistractors": [
+      "normalizing dangerous behavior",
+      "over-valuing rapport when the stem requires immediate danger assessment",
+      "mistaking denial for absence of risk"
+    ],
+    "miniExamples": [
+      {
+        "title": "Mandated client with escalating anger",
+        "text": "A client challenges the evaluator and becomes increasingly hostile. The social worker may need to assess violence risk, not just process feelings."
+      }
+    ],
+    "qualifierNotes": {
+      "FIRST": "Identify whether the question is secretly about danger before doing anything else.",
+      "NEXT": "After risk is clarified, then move to planning, consultation, or protective action.",
+      "BEST": "Choose the option that fits both the seriousness of risk and the social worker's scope."
+    }
+  },
+  {
+    "ksaId": "d2-iib-dsm-use",
+    "plainEnglish": "The exam is not trying to turn you into a symptom robot. It is testing whether you can connect hallmark clues in the vignette to the most likely diagnosis while avoiding shiny-but-wrong distractors.",
+    "examIsTesting": "Pattern recognition, differential thinking, and accurate use of core diagnostic features.",
+    "redFlags": [
+      "duration clues",
+      "substance-related timing",
+      "medical-rule-out indicators",
+      "hallucinations vs intrusive thoughts",
+      "mania vs anxiety vs trauma activation"
+    ],
+    "commonDistractors": [
+      "choosing the diagnosis that contains one symptom but misses the overall pattern",
+      "ignoring time duration",
+      "forgetting substance or medical causes"
+    ],
+    "miniExamples": [
+      {
+        "title": "Generalized anxiety disorder",
+        "text": "Excessive worry plus associated symptoms for more than six months points toward GAD, not adjustment disorder."
+      }
+    ],
+    "qualifierNotes": {
+      "MOST likely": "Often signals differential diagnosis. Focus on the best fit, not certainty."
+    }
+  },
+  {
+    "ksaId": "d2-iib-trauma-assessment",
+    "plainEnglish": "Trauma assessment means gathering information in a way that is clinically useful without becoming intrusive, destabilizing, or needlessly forcing disclosure before the client is ready.",
+    "examIsTesting": "Whether you understand trauma-informed pacing, safety, and the difference between assessing trauma and interrogating trauma.",
+    "redFlags": [
+      "pushing for details too early",
+      "ignoring dissociation or shutdown",
+      "assuming the client must disclose everything in the first session"
+    ],
+    "commonDistractors": [
+      "confronting avoidance too early",
+      "choosing content exploration before establishing emotional safety",
+      "mistaking reluctance for resistance"
+    ],
+    "miniExamples": [
+      {
+        "title": "Hesitant survivor",
+        "text": "When a client becomes fearful when asked about abuse, the social worker should first acknowledge the reluctance and pace the assessment accordingly."
+      }
+    ],
+    "qualifierNotes": {
+      "FIRST": "Often means regulate, acknowledge, or establish safety before deeper content.",
+      "BEST": "Pick the response that is trauma-informed, validating, and clinically sequenced."
+    }
+  }
+]
