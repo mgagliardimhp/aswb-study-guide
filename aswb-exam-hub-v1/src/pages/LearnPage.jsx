@@ -17,7 +17,8 @@ export default function LearnPage() {
 
   const domain = getDomain(ksa.domainId)
   const subdomain = subdomains.find((s) => s.id === ksa.subdomainId)
-  const domainClass = ksa.domainId || `domain-${(ksa.id || ksa.ksaId).split('-')[0].replace('d', '')}`
+  const domainClass =
+    ksa.domainId || `domain-${(ksa.id || ksa.ksaId).split('-')[0].replace('d', '')}`
 
   return (
     <div className={`stack-lg learn-page ${domainClass}`}>
@@ -48,17 +49,35 @@ export default function LearnPage() {
             <p>{content.examIsTesting}</p>
           </section>
 
+          {content.highYieldSubskills && (
+            <section className="card">
+              <h3>High-yield subskills</h3>
+              <div className="stack-md">
+                {content.highYieldSubskills.map((skill) => (
+                  <div key={skill.title} className="nested-card">
+                    <h4>{skill.title}</h4>
+                    <p>{skill.text}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
           <section className="card">
             <h3>Red-flag distinctions</h3>
             <ul className="clean-list">
-              {content.redFlags.map((item) => <li key={item}>{item}</li>)}
+              {content.redFlags.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
             </ul>
           </section>
 
           <section className="card">
             <h3>Common distractors</h3>
             <ul className="clean-list">
-              {content.commonDistractors.map((item) => <li key={item}>{item}</li>)}
+              {content.commonDistractors.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
             </ul>
           </section>
 
@@ -98,7 +117,10 @@ export default function LearnPage() {
 
       <section className="card action-card">
         <h3>Take this KSA into Practice Mode</h3>
-        <Link to={`/practice?domainId=${ksa.domainId}&subdomainId=${ksa.subdomainId}&ksaId=${ksa.id}`} className="button">
+        <Link
+          to={`/practice?domainId=${ksa.domainId}&subdomainId=${ksa.subdomainId}&ksaId=${ksa.id}`}
+          className="button"
+        >
           Practice this KSA
         </Link>
       </section>
