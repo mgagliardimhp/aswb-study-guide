@@ -14,7 +14,7 @@
   --domain-4: #E16A26;
 
   /* Neutrals */
-  --neutral-light: #F9F6F0;
+  --neutral-light: #F1EDE5;
   --neutral-dark: #333232;
 
   color: var(--neutral-dark);
@@ -30,9 +30,7 @@
 body {
   margin: 0;
   min-width: 320px;
-  background:
-    radial-gradient(circle at top, rgba(40, 128, 148, 0.14), transparent 35%),
-    linear-gradient(180deg, #BDDCD7 0%, #F9F6F0 42%, #F9F6F0 100%);
+  background: #BDDCD7;
   color: var(--neutral-dark);
 }
 
@@ -86,7 +84,7 @@ button, select { font: inherit; }
 
 .nav-link, .button, .chip {
   border: 1px solid rgba(40, 128, 148, 0.22);
-  background: rgba(249, 246, 240, 0.78);
+  background: rgba(241, 237, 229, 0.9);
   color: var(--neutral-dark);
   border-radius: 999px;
   padding: 10px 16px;
@@ -116,7 +114,7 @@ button, select { font: inherit; }
 }
 
 .card, .nested-card {
-  background: rgba(249, 246, 240, 0.92);
+  background: rgba(241, 237, 229, 0.96);
   border: 1px solid rgba(40, 128, 148, 0.14);
   border-radius: 22px;
   padding: 22px;
@@ -126,7 +124,7 @@ button, select { font: inherit; }
 
 .nested-card {
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(241, 237, 229, 0.92);
   padding: 18px;
 }
 
@@ -275,7 +273,7 @@ select {
   border-radius: 14px;
   padding: 12px 14px;
   border: 1px solid rgba(40, 128, 148, 0.18);
-  background: rgba(249, 246, 240, 0.92);
+  background: rgba(241, 237, 229, 0.96);
   color: var(--neutral-dark);
 }
 
@@ -291,7 +289,7 @@ select {
   border-radius: 16px;
   padding: 14px 16px;
   border: 1px solid rgba(40, 128, 148, 0.18);
-  background: rgba(255, 255, 255, 0.76);
+  background: rgba(241, 237, 229, 0.92);
   color: var(--neutral-dark);
   cursor: pointer;
   transition: 160ms ease;
@@ -351,8 +349,8 @@ select {
 }
 
 .hero .button.secondary {
-  background: rgba(249, 246, 240, 0.22);
-  border-color: rgba(249, 246, 240, 0.36);
+  background: rgba(241, 237, 229, 0.22);
+  border-color: rgba(241, 237, 229, 0.36);
   color: var(--neutral-light);
 }
 
@@ -506,8 +504,46 @@ select {
   background: linear-gradient(
     135deg,
     rgba(189, 220, 215, 0.45),
-    rgba(249, 246, 240, 0.95)
+    rgba(241, 237, 229, 0.95)
   );
+}
+
+/* ===== Learn page domain coloring ===== */
+
+.learn-page.domain-1 > section.card {
+  border-left: 8px solid var(--domain-1);
+}
+.learn-page.domain-1 > section.card .pill,
+.learn-page.domain-1 > section.card .tag {
+  background: rgba(239, 116, 189, 0.18);
+  border-color: rgba(239, 116, 189, 0.28);
+}
+
+.learn-page.domain-2 > section.card {
+  border-left: 8px solid var(--domain-2);
+}
+.learn-page.domain-2 > section.card .pill,
+.learn-page.domain-2 > section.card .tag {
+  background: rgba(238, 207, 240, 0.7);
+  border-color: rgba(210, 180, 215, 0.8);
+}
+
+.learn-page.domain-3 > section.card {
+  border-left: 8px solid var(--domain-3);
+}
+.learn-page.domain-3 > section.card .pill,
+.learn-page.domain-3 > section.card .tag {
+  background: rgba(199, 204, 26, 0.2);
+  border-color: rgba(199, 204, 26, 0.35);
+}
+
+.learn-page.domain-4 > section.card {
+  border-left: 8px solid var(--domain-4);
+}
+.learn-page.domain-4 > section.card .pill,
+.learn-page.domain-4 > section.card .tag {
+  background: rgba(225, 106, 38, 0.16);
+  border-color: rgba(225, 106, 38, 0.28);
 }
 
 @media (max-width: 760px) {
@@ -523,110 +559,4 @@ select {
   .topbar {
     align-items: flex-start;
   }
-}
-import { Link, useParams } from 'react-router-dom'
-import { getKSA, getLearnContent, getDomain, subdomains } from '../utils'
-
-export default function LearnPage() {
-  const { ksaId } = useParams()
-  const ksa = getKSA(ksaId)
-  const content = getLearnContent(ksaId)
-
-  if (!ksa) {
-    return (
-      <section className="card">
-        <h2>KSA not found</h2>
-        <Link to="/study-map" className="button">Back to Study Map</Link>
-      </section>
-    )
-  }
-
-  const domain = getDomain(ksa.domainId)
-  const subdomain = subdomains.find((s) => s.id === ksa.subdomainId)
-
-  return (
-    <div className="stack-lg">
-      <section className="card">
-        <div className="eyebrow">Learn Mode</div>
-        <h2>{ksa.title}</h2>
-        <div className="meta-stack">
-          <span><strong>Domain:</strong> {domain?.title}</span>
-          <span><strong>Subdomain:</strong> {subdomain?.code} · {subdomain?.title}</span>
-        </div>
-
-        <div className="tag-row push-top">
-          {ksa.tags.map((tag) => (
-            <span key={tag} className="tag">{tag}</span>
-          ))}
-        </div>
-      </section>
-
-      {content ? (
-        <>
-          <section className="card">
-            <h3>Plain-English explainer</h3>
-            <p>{content.plainEnglish}</p>
-          </section>
-
-          <section className="card">
-            <h3>What the exam is really testing</h3>
-            <p>{content.examIsTesting}</p>
-          </section>
-
-          <section className="card">
-            <h3>Red-flag distinctions</h3>
-            <ul className="clean-list">
-              {content.redFlags.map((item) => <li key={item}>{item}</li>)}
-            </ul>
-          </section>
-
-          <section className="card">
-            <h3>Common distractors</h3>
-            <ul className="clean-list">
-              {content.commonDistractors.map((item) => <li key={item}>{item}</li>)}
-            </ul>
-          </section>
-
-          <section className="card">
-            <h3>Mini clinical examples</h3>
-            <div className="stack-md">
-              {content.miniExamples.map((example) => (
-                <div key={example.title} className="nested-card">
-                  <h4>{example.title}</h4>
-                  <p>{example.text}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          <section className="card">
-            <h3>Qualifier strategy notes</h3>
-            <div className="grid two-up">
-              {Object.entries(content.qualifierNotes).map(([qualifier, note]) => (
-                <div key={qualifier} className="nested-card">
-                  <div className="pill">{qualifier}</div>
-                  <p>{note}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        </>
-      ) : (
-        <section className="card">
-          <h3>Placeholder content</h3>
-          <p>
-            This KSA exists in the blueprint, but its learn content has not been written yet.
-            Use this page template as the content format for future buildout.
-          </p>
-        </section>
-      )}
-
-      <section className="card action-card">
-        <h3>Take this KSA into Practice Mode</h3>
-        <Link to={`/practice?domainId=${ksa.domainId}&subdomainId=${ksa.subdomainId}&ksaId=${ksa.id}`} className="button">
-          Practice this KSA
-        </Link>
-      </section>
-    </div>
-  )
 }
