@@ -17,7 +17,7 @@ export default function DomainPage() {
   }
 
   return (
-    <div className="stack-lg">
+      <div className={`stack-lg domain-page ${domain.id}`}>
       <section className="card">
         <div className="pill">{domain.code}</div>
         <h2>{domain.title}</h2>
