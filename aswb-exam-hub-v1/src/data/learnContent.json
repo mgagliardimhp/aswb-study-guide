@@ -1,66 +1,50 @@
-[
-  {
-    "ksaId": "d2-iib-risk-assessment-methods",
-    "plainEnglish": "Risk assessment is the structured clinical process of figuring out whether there is current danger, how immediate it is, and what must happen before anything else. On the exam, this often means you pause the urge to reassure, educate, or refer and instead determine whether there is a concrete safety issue right now.",
-    "examIsTesting": "Whether you can recognize when safety assessment must come before supportive counseling, long-term planning, or exploration. It is usually testing sequence, not just knowledge.",
-    "redFlags": [
-      "specific plan",
-      "access to means",
-      "command hallucinations",
-      "recent attempt or violent act",
-      "clear target, time frame, or intent"
-    ],
-    "commonDistractors": [
-      "jumping into treatment before assessing immediacy of danger",
-      "choosing a warm empathic response when the stem is really about safety triage",
-      "referring out before the core risk facts are known",
-      "over-focusing on history when the question is asking about current threat"
-    ],
-    "miniExamples": [
-      {
-        "title": "Threat to another person",
-        "text": "A client reports voices telling them to hurt a teacher. FIRST, determine whether there is a specific plan, means, and immediacy."
-      },
-      {
-        "title": "Suicidal ideation",
-        "text": "A client says, 'My family would be better off without me.' Before reassurance or coping skills, assess intent, plan, means, and timeframe."
-      }
-    ],
-    "qualifierNotes": {
-      "FIRST": "Usually means start with safety, assessment, stabilization, or clarification before intervention.",
-      "NEXT": "Assumes the first appropriate step already happened. Pick the logical second move.",
-      "BEST": "Several options may be decent. Choose the one most aligned with social work role, safety, and sequence.",
-      "MOST": "Look for the answer most directly supported by the stem, not the one that is generally true in all cases."
+{
+  "ksaId": "d2-iib-risk-assessment-methods",
+  "plainEnglish": "Risk assessment methods means the structured way a social worker determines whether harm, serious deterioration, or unsafe functioning is likely, how urgent it is, who is affected, what makes it worse or safer, and what still must be clarified before any disposition decision is made. In practice, this KSA is broader than suicide or homicide alone. It can include self-harm or suicide risk, violence risk, abuse or neglect risk, exploitation or victimization, grave disability or inability to care for self, relapse or acute decompensation, caregiver or family-system instability, environmental danger, and unsafe discharge or unsafe return home.",
+  "examIsTesting": "Whether you can identify the correct assessment move before acting. ASWB is usually testing your ability to identify the primary risk domain, gather the most safety-relevant missing data, distinguish current danger from background concern, weigh risk factors against protective factors, use collateral and context, and stay in assessment logic instead of drifting too early into intervention, discharge, or placement.",
+  "redFlags": [
+    "specific plan, intent, and access to means",
+    "acute escalation rather than only chronic historical risk",
+    "caregiver instability or failed supervision",
+    "grave disability or inability to meet basic needs",
+    "unsafe home, discharge, or environmental context",
+    "unreliable self-report requiring collateral",
+    "self-injury that may signal elevated suicide risk"
+  ],
+  "commonDistractors": [
+    "jumping into treatment, coping skills, psychoeducation, or referral before enough risk data is gathered",
+    "choosing the wrong risk domain, such as treating neglect or grave disability as a self-harm item",
+    "focusing on diagnosis while missing access to means, supervision, or environmental danger",
+    "letting one protective factor falsely cancel acute risk",
+    "using motivational interviewing language when the stem really requires direct risk clarification",
+    "choosing hospitalization, discharge, or placement before the assessment phase is complete",
+    "accepting vague denial or reassurance instead of directly assessing plan, intent, timing, and supports"
+  ],
+  "miniExamples": [
+    {
+      "title": "Suicide risk clarification",
+      "text": "A client says, 'I can’t do this anymore.' FIRST, assess suicidal thoughts, plan, intent, timing, and access to means before moving into safety planning."
+    },
+    {
+      "title": "Violence risk in unsafe discharge",
+      "text": "A recently discharged client is angry, paranoid, and returning to a conflict-filled home. FIRST, clarify threats, target specificity, recent violence, supervision, and home safety."
+    },
+    {
+      "title": "Child neglect and caregiver failure",
+      "text": "A parent reports being overwhelmed after leaving a young child alone overnight. FIRST, assess immediate child safety, caregiver functioning, supervision failure, and collateral supports."
+    },
+    {
+      "title": "Grave disability",
+      "text": "An older adult with confusion and poor hygiene insists everything is fine. Before respecting the refusal at face value, assess orientation, medication management, support system, and ability to meet basic needs."
     }
-  },
-  {
-    "ksaId": "d2-iib-danger-self-others",
-    "plainEnglish": "This KSA is about spotting the signs that elevate concern from distress to possible imminent danger. The exam wants you to notice threat indicators hiding inside the vignette and respond proportionally.",
-    "examIsTesting": "Whether you can distinguish ordinary emotional pain from a situation that requires a more urgent evaluation of danger to self or others.",
-    "redFlags": [
-      "recent threats",
-      "history of violence or attempts",
-      "psychosis with commands",
-      "agitation plus access to a victim or weapon",
-      "sudden calm after severe suicidal distress"
-    ],
-    "commonDistractors": [
-      "normalizing dangerous behavior",
-      "over-valuing rapport when the stem requires immediate danger assessment",
-      "mistaking denial for absence of risk"
-    ],
-    "miniExamples": [
-      {
-        "title": "Mandated client with escalating anger",
-        "text": "A client challenges the evaluator and becomes increasingly hostile. The social worker may need to assess violence risk, not just process feelings."
-      }
-    ],
-    "qualifierNotes": {
-      "FIRST": "Identify whether the question is secretly about danger before doing anything else.",
-      "NEXT": "After risk is clarified, then move to planning, consultation, or protective action.",
-      "BEST": "Choose the option that fits both the seriousness of risk and the social worker's scope."
-    }
-  },
+  ],
+  "qualifierNotes": {
+    "FIRST": "Choose the answer that gathers the most urgent missing safety data, such as clarifying ideation, assessing plan/intent/access, determining whether a vulnerable person is currently safe, obtaining collateral, or assessing basic self-care capacity.",
+    "NEXT": "Assumes the initial risk concern has already been recognized. The next step usually sharpens the risk picture by clarifying timing, lethality, supervision, caregiver reliability, environmental safety, or protective factors.",
+    "BEST": "Pick the answer that addresses the central risk in the stem, not just a generally good clinical action.",
+    "MOST": "Look for the option that best fits the assessment phase, stays within the social work role, protects safety, avoids unsupported assumptions, and comes before treatment planning when assessment is incomplete."
+  }
+},
   {
     "ksaId": "d2-iib-dsm-use",
     "plainEnglish": "The exam is not trying to turn you into a symptom robot. It is testing whether you can connect hallmark clues in the vignette to the most likely diagnosis while avoiding shiny-but-wrong distractors.",
