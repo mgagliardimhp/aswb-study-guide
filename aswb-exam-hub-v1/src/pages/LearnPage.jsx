@@ -19,7 +19,7 @@ export default function LearnPage() {
   const subdomain = subdomains.find((s) => s.id === ksa.subdomainId)
 
   return (
-    <div className="stack-lg">
+    <div className={`stack-lg learn-page ${ksa.domainId}`}>
       <section className="card">
         <div className="eyebrow">Learn Mode</div>
         <h2>{ksa.title}</h2>
