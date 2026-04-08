@@ -2,6 +2,40 @@
   "ksaId": "d2-iib-risk-assessment-methods",
   "plainEnglish": "Risk assessment methods means the structured way a social worker determines whether harm, serious deterioration, or unsafe functioning is likely, how urgent it is, who is affected, what makes it worse or safer, and what still must be clarified before any disposition decision is made. In practice, this KSA is broader than suicide or homicide alone. It can include self-harm or suicide risk, violence risk, abuse or neglect risk, exploitation or victimization, grave disability or inability to care for self, relapse or acute decompensation, caregiver or family-system instability, environmental danger, and unsafe discharge or unsafe return home.",
   "examIsTesting": "Whether you can identify the correct assessment move before acting. ASWB is usually testing your ability to identify the primary risk domain, gather the most safety-relevant missing data, distinguish current danger from background concern, weigh risk factors against protective factors, use collateral and context, and stay in assessment logic instead of drifting too early into intervention, discharge, or placement.",
+  "highYieldSubskills": [
+    {
+      "title": "Identify the exact risk",
+      "text": "First decide what kind of risk the stem is really about: self-harm, harm to others, abuse or neglect, exploitation, inability to care for self, unsafe discharge, caregiver failure, or environmental danger."
+    },
+    {
+      "title": "Assess intent, plan, means/access, and immediacy",
+      "text": "This is the core subskill for suicide and violence stems. The key questions are whether there is intent, a specific plan, access to means, and signs that the threat is current and actionable."
+    },
+    {
+      "title": "Separate chronic vulnerability from acute danger",
+      "text": "A client may have many historical risk factors but low immediate danger, or fewer background risks but high acute risk because the threat is current, specific, and actionable."
+    },
+    {
+      "title": "Weigh risk against protective factors",
+      "text": "Do not assess danger in isolation. Protective factors such as supports, supervision, willingness to accept help, ability to delay action, and future orientation can modify the risk picture, but they do not automatically erase acute risk."
+    },
+    {
+      "title": "Include family, caregiver, and environmental context",
+      "text": "Social work risk assessment includes supervision quality, caregiver reliability, home safety, family conflict, access to substances or weapons, barriers to care, and whether the client is isolated or in a monitored setting."
+    },
+    {
+      "title": "Use collateral when needed",
+      "text": "Collateral information is especially important when self-report may be incomplete, unreliable, developmentally limited, or constrained by fear, coercion, intoxication, cognitive impairment, or psychosis."
+    },
+    {
+      "title": "Distinguish self-injury from suicidal intent",
+      "text": "Not all self-harm means imminent suicide, but it may still elevate risk. The exam likes this distinction because it rewards careful assessment instead of overreacting or underreacting."
+    },
+    {
+      "title": "Let assessment inform disposition without skipping ahead",
+      "text": "Risk assessment should inform level-of-care thinking, but if the question is still asking about assessment, the best answer is usually the missing assessment data, not the final placement decision."
+    }
+  ],
   "redFlags": [
     "specific plan, intent, and access to means",
     "acute escalation rather than only chronic historical risk",
@@ -44,11 +78,45 @@
     "BEST": "Pick the answer that addresses the central risk in the stem, not just a generally good clinical action.",
     "MOST": "Look for the option that best fits the assessment phase, stays within the social work role, protects safety, avoids unsupported assumptions, and comes before treatment planning when assessment is incomplete."
   }
-}, 
+},
 {
-  "ksaId": "d2-iib-methods-used-to-assess-trauma",
+  "ksaId": "d2-iib-risk-assessment-methods",
   "plainEnglish": "Risk assessment methods means the structured way a social worker determines whether harm, serious deterioration, or unsafe functioning is likely, how urgent it is, who is affected, what makes it worse or safer, and what still must be clarified before any disposition decision is made. In practice, this KSA is broader than suicide or homicide alone. It can include self-harm or suicide risk, violence risk, abuse or neglect risk, exploitation or victimization, grave disability or inability to care for self, relapse or acute decompensation, caregiver or family-system instability, environmental danger, and unsafe discharge or unsafe return home.",
   "examIsTesting": "Whether you can identify the correct assessment move before acting. ASWB is usually testing your ability to identify the primary risk domain, gather the most safety-relevant missing data, distinguish current danger from background concern, weigh risk factors against protective factors, use collateral and context, and stay in assessment logic instead of drifting too early into intervention, discharge, or placement.",
+  "highYieldSubskills": [
+    {
+      "title": "Identify the exact risk",
+      "text": "First decide what kind of risk the stem is really about: self-harm, harm to others, abuse or neglect, exploitation, inability to care for self, unsafe discharge, caregiver failure, or environmental danger."
+    },
+    {
+      "title": "Assess intent, plan, means/access, and immediacy",
+      "text": "This is the core subskill for suicide and violence stems. The key questions are whether there is intent, a specific plan, access to means, and signs that the threat is current and actionable."
+    },
+    {
+      "title": "Separate chronic vulnerability from acute danger",
+      "text": "A client may have many historical risk factors but low immediate danger, or fewer background risks but high acute risk because the threat is current, specific, and actionable."
+    },
+    {
+      "title": "Weigh risk against protective factors",
+      "text": "Do not assess danger in isolation. Protective factors such as supports, supervision, willingness to accept help, ability to delay action, and future orientation can modify the risk picture, but they do not automatically erase acute risk."
+    },
+    {
+      "title": "Include family, caregiver, and environmental context",
+      "text": "Social work risk assessment includes supervision quality, caregiver reliability, home safety, family conflict, access to substances or weapons, barriers to care, and whether the client is isolated or in a monitored setting."
+    },
+    {
+      "title": "Use collateral when needed",
+      "text": "Collateral information is especially important when self-report may be incomplete, unreliable, developmentally limited, or constrained by fear, coercion, intoxication, cognitive impairment, or psychosis."
+    },
+    {
+      "title": "Distinguish self-injury from suicidal intent",
+      "text": "Not all self-harm means imminent suicide, but it may still elevate risk. The exam likes this distinction because it rewards careful assessment instead of overreacting or underreacting."
+    },
+    {
+      "title": "Let assessment inform disposition without skipping ahead",
+      "text": "Risk assessment should inform level-of-care thinking, but if the question is still asking about assessment, the best answer is usually the missing assessment data, not the final placement decision."
+    }
+  ],
   "redFlags": [
     "specific plan, intent, and access to means",
     "acute escalation rather than only chronic historical risk",
