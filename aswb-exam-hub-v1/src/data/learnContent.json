@@ -1,4 +1,4 @@
-{
+[{
   "ksaId": "d2-iib-risk-assessment-methods",
   "plainEnglish": "Risk assessment methods means the structured way a social worker determines whether harm, serious deterioration, or unsafe functioning is likely, how urgent it is, who is affected, what makes it worse or safer, and what still must be clarified before any disposition decision is made. In practice, this KSA is broader than suicide or homicide alone. It can include self-harm or suicide risk, violence risk, abuse or neglect risk, exploitation or victimization, grave disability or inability to care for self, relapse or acute decompensation, caregiver or family-system instability, environmental danger, and unsafe discharge or unsafe return home.",
   "examIsTesting": "Whether you can identify the correct assessment move before acting. ASWB is usually testing your ability to identify the primary risk domain, gather the most safety-relevant missing data, distinguish current danger from background concern, weigh risk factors against protective factors, use collateral and context, and stay in assessment logic instead of drifting too early into intervention, discharge, or placement.",
@@ -44,4 +44,4 @@
     "BEST": "Pick the answer that addresses the central risk in the stem, not just a generally good clinical action.",
     "MOST": "Look for the option that best fits the assessment phase, stays within the social work role, protects safety, avoids unsupported assumptions, and comes before treatment planning when assessment is incomplete."
   }
-}
+}]
