@@ -17,7 +17,7 @@ export default function LearnPage() {
 
   const domain = getDomain(ksa.domainId)
   const subdomain = subdomains.find((s) => s.id === ksa.subdomainId)
-  const domainClass = `domain-${ksa.id.split('-')[0].replace('d', '')}`
+  const domainClass = ksa.domainId || `domain-${(ksa.id || ksa.ksaId).split('-')[0].replace('d', '')}`
 
   return (
     <div className={`stack-lg learn-page ${domainClass}`}>
