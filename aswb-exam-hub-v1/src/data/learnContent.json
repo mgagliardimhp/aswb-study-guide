@@ -44,4 +44,51 @@
     "BEST": "Pick the answer that addresses the central risk in the stem, not just a generally good clinical action.",
     "MOST": "Look for the option that best fits the assessment phase, stays within the social work role, protects safety, avoids unsupported assumptions, and comes before treatment planning when assessment is incomplete."
   }
+}, 
+{
+  "ksaId": "d2-iib-methods-used-to-assess-trauma",
+  "plainEnglish": "Risk assessment methods means the structured way a social worker determines whether harm, serious deterioration, or unsafe functioning is likely, how urgent it is, who is affected, what makes it worse or safer, and what still must be clarified before any disposition decision is made. In practice, this KSA is broader than suicide or homicide alone. It can include self-harm or suicide risk, violence risk, abuse or neglect risk, exploitation or victimization, grave disability or inability to care for self, relapse or acute decompensation, caregiver or family-system instability, environmental danger, and unsafe discharge or unsafe return home.",
+  "examIsTesting": "Whether you can identify the correct assessment move before acting. ASWB is usually testing your ability to identify the primary risk domain, gather the most safety-relevant missing data, distinguish current danger from background concern, weigh risk factors against protective factors, use collateral and context, and stay in assessment logic instead of drifting too early into intervention, discharge, or placement.",
+  "redFlags": [
+    "specific plan, intent, and access to means",
+    "acute escalation rather than only chronic historical risk",
+    "caregiver instability or failed supervision",
+    "grave disability or inability to meet basic needs",
+    "unsafe home, discharge, or environmental context",
+    "unreliable self-report requiring collateral",
+    "self-injury that may signal elevated suicide risk"
+  ],
+  "commonDistractors": [
+    "jumping into treatment, coping skills, psychoeducation, or referral before enough risk data is gathered",
+    "choosing the wrong risk domain, such as treating neglect or grave disability as a self-harm item",
+    "focusing on diagnosis while missing access to means, supervision, or environmental danger",
+    "letting one protective factor falsely cancel acute risk",
+    "using motivational interviewing language when the stem really requires direct risk clarification",
+    "choosing hospitalization, discharge, or placement before the assessment phase is complete",
+    "accepting vague denial or reassurance instead of directly assessing plan, intent, timing, and supports"
+  ],
+  "miniExamples": [
+    {
+      "title": "Suicide risk clarification",
+      "text": "A client says, 'I can’t do this anymore.' FIRST, assess suicidal thoughts, plan, intent, timing, and access to means before moving into safety planning."
+    },
+    {
+      "title": "Violence risk in unsafe discharge",
+      "text": "A recently discharged client is angry, paranoid, and returning to a conflict-filled home. FIRST, clarify threats, target specificity, recent violence, supervision, and home safety."
+    },
+    {
+      "title": "Child neglect and caregiver failure",
+      "text": "A parent reports being overwhelmed after leaving a young child alone overnight. FIRST, assess immediate child safety, caregiver functioning, supervision failure, and collateral supports."
+    },
+    {
+      "title": "Grave disability",
+      "text": "An older adult with confusion and poor hygiene insists everything is fine. Before respecting the refusal at face value, assess orientation, medication management, support system, and ability to meet basic needs."
+    }
+  ],
+  "qualifierNotes": {
+    "FIRST": "Choose the answer that gathers the most urgent missing safety data, such as clarifying ideation, assessing plan/intent/access, determining whether a vulnerable person is currently safe, obtaining collateral, or assessing basic self-care capacity.",
+    "NEXT": "Assumes the initial risk concern has already been recognized. The next step usually sharpens the risk picture by clarifying timing, lethality, supervision, caregiver reliability, environmental safety, or protective factors.",
+    "BEST": "Pick the answer that addresses the central risk in the stem, not just a generally good clinical action.",
+    "MOST": "Look for the option that best fits the assessment phase, stays within the social work role, protects safety, avoids unsupported assumptions, and comes before treatment planning when assessment is incomplete."
+  }
 }]
