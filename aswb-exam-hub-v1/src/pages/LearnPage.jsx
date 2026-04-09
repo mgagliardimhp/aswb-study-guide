@@ -49,14 +49,14 @@ export default function LearnPage() {
             <p>{content.examIsTesting}</p>
           </section>
 
-          {content.highYieldSubskills && (
+          {content.knowledgeBase && (
             <section className="card">
               <h3>Knowledge base</h3>
               <div className="stack-md">
-                {content.highYieldSubskills.map((skill) => (
-                  <div key={skill.title} className="nested-card">
-                    <h4>{skill.title}</h4>
-                    <p>{skill.text}</p>
+                {content.knowledgeBase.map((item) => (
+                  <div key={item.title} className="nested-card">
+                    <h4>{item.title}</h4>
+                    <p>{item.text}</p>
                   </div>
                 ))}
               </div>
