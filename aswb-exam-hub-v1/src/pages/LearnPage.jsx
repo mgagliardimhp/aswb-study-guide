@@ -56,7 +56,31 @@ export default function LearnPage() {
                 {content.knowledgeBase.map((item) => (
                   <div key={item.title} className="nested-card">
                     <h4>{item.title}</h4>
-                    <p>{item.text}</p>
+
+                    {item.text && <p>{item.text}</p>}
+
+                    {item.sections && (
+                      <div className="stack-md">
+                        {item.sections.map((section, index) => (
+                          <div key={`${item.title}-${section.heading || index}`} className="field">
+                            {section.heading && <h5>{section.heading}</h5>}
+
+                            {section.paragraphs &&
+                              section.paragraphs.map((paragraph, pIndex) => (
+                                <p key={`${item.title}-p-${pIndex}`}>{paragraph}</p>
+                              ))}
+
+                            {section.bullets && section.bullets.length > 0 && (
+                              <ul className="clean-list">
+                                {section.bullets.map((bullet) => (
+                                  <li key={bullet}>{bullet}</li>
+                                ))}
+                              </ul>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
