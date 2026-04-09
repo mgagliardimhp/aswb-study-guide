@@ -560,3 +560,17 @@ select {
     align-items: flex-start;
   }
 }
+.learn-page .nested-card h5 {
+  margin: 10px 0 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--neutral-dark);
+}
+
+.learn-page .nested-card p {
+  margin: 0 0 10px;
+}
+
+.learn-page .nested-card .clean-list {
+  margin-top: 0;
+}
