@@ -1,4 +1,85 @@
 [{
+  "ksaId": "d1-ia-theories-of-human-development-throughout-the-lifespan",
+  "plainEnglish": "Theories of human development throughout the lifespan give you structured ways to explain why people think, feel, cope, relate, and behave differently at different ages. For ASWB Clinical, this is not about memorizing textbook stages in isolation. It is about recognizing what developmental task is active, what normal conflict belongs to that age, what happens when the task is disrupted, how symptoms may reflect developmental arrest, mismatch, trauma, or delayed mastery, and what intervention fits the client’s developmental level. This KSA sits in Domain I → IA. Human Growth and Development, so ASWB is testing your ability to connect age, behavior, psychosocial task, and theory-based meaning.",
+  "examIsTesting": "Whether you can identify the best developmental lens for the presenting problem. The exam is usually testing whether a behavior is developmentally expected, delayed, disrupted, or being explained by the wrong stage or theory. It wants you to distinguish whether a vignette is really about psychosocial conflict, cognitive capacity, psychosexual fixation or unconscious conflict, moral reasoning, relational security, modeling and reinforcement, reciprocal systems influence, or historical timing and transitions.",
+  "knowledgeBase": [
+    {
+      "title": "Erikson: psychosocial development",
+      "text": "Erikson’s psychosocial theory describes human development as a sequence of lifespan conflicts between two opposing poles. At each period of life, the person is working through a central psychosocial task, and healthy development usually means gaining a workable balance. Erikson is mainly concerned with how the self develops in relation to society, how identity forms over time, how age-linked social tasks shape personality, and how unresolved earlier conflicts affect later functioning. The major stages are trust vs mistrust in infancy, autonomy vs shame and doubt in toddlerhood, initiative vs guilt in early childhood, industry vs inferiority in school age, identity vs role confusion in adolescence, intimacy vs isolation in young adulthood, generativity vs stagnation in middle adulthood, and integrity vs despair in older adulthood. The theory explains development as lifelong, with each phase bringing a new psychosocial problem that reorganizes the person’s sense of self and relationships. It helps explain shame, insecurity, school-age competence problems, adolescent identity confusion, intimacy avoidance, midlife stagnation, older-adult regret or life integration, and crises around major role transitions."
+    },
+    {
+      "title": "Piaget: cognitive development",
+      "text": "Piaget’s theory explains how children’s thinking changes qualitatively over time. It focuses on the development of cognitive structures, meaning how children understand the world, reason about it, and solve problems. Piaget is mainly concerned with how knowledge is built, how thinking becomes more logical and complex, and how children move from sensory experience to abstract reasoning. Major concepts include schemas, assimilation, accommodation, and equilibration. The major stages are sensorimotor in infancy, preoperational in early childhood, concrete operational in school age, and formal operational beginning in adolescence. Piaget is strongest in childhood and adolescence and explains development as a progression from action-based experience to increasingly flexible and abstract thinking. It helps explain magical thinking, egocentric interpretations, literal thinking, difficulty understanding abstract ideas, school-age gains in logic, and adolescent capacity for hypothetical reasoning."
+    },
+    {
+      "title": "Freud: psychosexual and structural personality development",
+      "text": "Freud’s developmental theory explains personality as emerging from the interaction of drives, conflicts, unconscious processes, and early developmental experiences. Development is shaped by how instinctual needs are managed and how conflicts are resolved. Freud is mainly concerned with unconscious motivation, instinctual drives, early childhood experience, conflict between wishes, rules, and reality, and the development of personality structure. Major concepts include the id, ego, superego, defense mechanisms, fixation, and regression. The major stages are oral, anal, phallic, latency, and genital. Freud gives early childhood a determining role, and later functioning reflects how earlier psychosexual conflicts were resolved or carried forward. The theory helps explain dependency, control and rigidity, regression under stress, repetitive relational conflict, unconscious symptom meaning, defense-heavy coping styles, and behavior that does not make sense on a purely rational level."
+    },
+    {
+      "title": "Kohlberg: moral development",
+      "text": "Kohlberg’s theory explains how moral reasoning develops from simple rule-based thinking to more complex principle-based judgment. It is not about whether someone behaves well, but how they reason about right and wrong. Kohlberg is mainly concerned with moral judgment, justice reasoning, the logic behind ethical choices, and how social rules and principles are understood. The major levels are preconventional, conventional, and postconventional, each with more specific stages. Moral reasoning becomes more sophisticated as cognitive and social capacities develop. The theory helps explain rule-following, fairness conflicts, justice-based arguments, moral rigidity, value conflicts, and differences between externally controlled morality and internally reasoned ethics."
+    },
+    {
+      "title": "Bowlby / attachment theory",
+      "text": "Attachment theory explains how early caregiver-child relationships shape the person’s expectations about safety, closeness, reliability, and emotional regulation. Bowlby emphasized the child’s need for a secure base and the importance of early bonds for later development. Attachment theory is mainly concerned with emotional security, proximity-seeking, separation and reunion, trust and mistrust in close relationships, and how early caregiving becomes an internal relationship template. Major concepts include the secure base, internal working models, attachment bonds, separation distress, and attachment patterns such as secure, anxious or ambivalent, avoidant, and later disorganized formulations. Attachment begins in infancy but continues to shape later trust, affect regulation, self-worth, help-seeking, intimacy, abandonment sensitivity, and tolerance for closeness. It helps explain clinginess, separation anxiety, fear of abandonment, intimacy avoidance, mistrust, overdependence, dysregulated responses to rejection, and instability in close relationships."
+    },
+    {
+      "title": "Social learning theory",
+      "text": "Social learning theory explains development through observation, imitation, reinforcement, and modeling. People learn not only from direct experience but also by watching others and seeing what behaviors are rewarded or punished. It is mainly concerned with how behavior is learned, how environments shape behavior, how modeling and consequences influence coping and social action, and how behavior patterns are maintained over time. Major concepts include modeling, imitation, reinforcement, punishment, vicarious learning, and self-efficacy. Development is shaped continuously by the social environment across the lifespan. The theory helps explain aggression learned from family or peers, substance use learned in the home, avoidance behavior, coping habits, social skills deficits, repeatedly reinforced maladaptive behavior, and intergenerational transmission of habits, communication, or parenting."
+    },
+    {
+      "title": "Systems / ecological developmental thinking",
+      "text": "Systems and ecological developmental thinking explains development as the product of ongoing interaction between the individual and multiple environments. It is rooted in person-in-environment and ecosystems thinking, meaning development is not understood inside the person alone but in relation to family, peers, institutions, culture, community, and social structure. It is mainly concerned with reciprocal influence between person and environment, multiple levels of context, role expectations, adaptation, stress, fit, and how environments support or constrain development. Major concepts include systems, subsystems, boundaries, roles, homeostasis, adaptation, goodness of fit, and transactions. At every age, development is shaped by surrounding systems. This perspective helps explain how school and family stress interact, the developmental impact of poverty or discrimination, caregiver burnout, role strain, institutional barriers, support-system collapse, resilience shaped by context, and worsening symptoms when environmental fit worsens."
+    },
+    {
+      "title": "Life course perspective",
+      "text": "The life course perspective explains development as a pattern of timing, transitions, linked lives, and historical context. It pays close attention to when events happen, how one life stage affects the next, and how people’s lives are intertwined with family and social history. It is mainly concerned with timing of life events, role transitions, trajectories over time, historical and cohort effects, and how one person’s life path affects others. Major concepts include trajectory, transition, timing, linked lives, historical context or cohort, and turning points. Development is shaped not only by age, but by when experiences occur and under what historical or family conditions. The theory helps explain off-time transitions, role loss and role strain, caregiving burdens, retirement adjustment, intergenerational ripple effects, developmental stress after major transitions, and why the same event affects different people differently depending on timing."
+    }
+  ],
+  "redFlags": [
+    "picking theory by age alone instead of mechanism",
+    "confusing cognition with psychosocial conflict",
+    "choosing attachment when the stem is really about modeling",
+    "overpathologizing normal stage behavior",
+    "missing older-adult developmental theories"
+  ],
+  "commonDistractors": [
+    "using the correct age bracket with the wrong developmental lens",
+    "mistaking Piaget for Erikson when the issue is competence, shame, identity, or intimacy",
+    "mistaking Bowlby for social learning when the issue is copied behavior rather than relational security",
+    "defaulting to pathology when the behavior may reflect normal developmental work",
+    "overlooking integrity vs despair, life review, or life course transitions in late-life stems"
+  ],
+  "miniExamples": [
+    {
+      "title": "Childhood competence",
+      "text": "A 7-year-old becomes distressed when classmates outperform him academically. The stronger developmental lens is Erikson, specifically industry vs inferiority, because the core issue is school-age competence and comparison."
+    },
+    {
+      "title": "Adolescent identity exploration",
+      "text": "A 16-year-old experiments with clothing styles, peer groups, and political beliefs. The stronger developmental lens is Erikson, specifically identity vs role confusion, because the issue is identity exploration rather than cognitive capacity."
+    },
+    {
+      "title": "Young-adult intimacy pattern",
+      "text": "A 28-year-old repeatedly withdraws when partners get emotionally close. The stronger developmental lens is Bowlby and attachment theory because the pattern centers relational security and closeness."
+    },
+    {
+      "title": "Middle-adult meaning crisis",
+      "text": "A 46-year-old feels depressed after children leave home and wonders whether life has mattered. The stronger developmental lens is Erikson, specifically generativity vs stagnation, because the issue is contribution, meaning, and legacy."
+    },
+    {
+      "title": "Older-adult life review",
+      "text": "An 82-year-old reviews life with pride despite losses. The stronger developmental lens is Erikson, specifically integrity vs despair, because the issue is life review and meaning integration."
+    }
+  ],
+  "qualifierNotes": {
+    "FIRST": "Anchor first on age, presenting behavior, relational context, cognitive clues, and any major role transition.",
+    "NEXT": "Ask what developmental mechanism best explains the behavior: thinking points toward Piaget, identity toward Erikson, morality toward Kohlberg, bonding toward Bowlby, imitation toward social learning, and timing or transition toward life course.",
+    "BEST": "The best answer explains the why behind the behavior, not just the age bracket.",
+    "MOST": "When several theories seem plausible, choose the one that best explains symptom meaning, developmental task, contextual timing, relational mechanism, or cognitive capacity."
+  }
+},
+  {
   "ksaId": "d2-iib-risk-assessment-methods",
   "plainEnglish": "Risk assessment methods means the structured way a social worker determines whether harm, serious deterioration, or unsafe functioning is likely, how urgent it is, who is affected, what makes it worse or safer, and what still must be clarified before any disposition decision is made. In practice, this KSA is broader than suicide or homicide alone. It can include self-harm or suicide risk, violence risk, abuse or neglect risk, exploitation or victimization, grave disability or inability to care for self, relapse or acute decompensation, caregiver or family-system instability, environmental danger, and unsafe discharge or unsafe return home.",
   "examIsTesting": "Whether you can identify the correct assessment move before acting. ASWB is usually testing your ability to identify the primary risk domain, gather the most safety-relevant missing data, distinguish current danger from background concern, weigh risk factors against protective factors, use collateral and context, and stay in assessment logic instead of drifting too early into intervention, discharge, or placement.",
