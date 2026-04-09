@@ -51,7 +51,7 @@ export default function LearnPage() {
 
           {content.highYieldSubskills && (
             <section className="card">
-              <h3>High-yield subskills</h3>
+              <h3>Knowledge base</h3>
               <div className="stack-md">
                 {content.highYieldSubskills.map((skill) => (
                   <div key={skill.title} className="nested-card">
