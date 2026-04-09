@@ -9,7 +9,7 @@ export default function HomePage() {
         <div className="hero-grid">
           <div>
             <div className="eyebrow">v1 scaffold</div>
-            <h2>Build the bones first. Fill the library next.</h2>
+            <h2>ASWB Clinical Exam Prep Hub</h2>
             <p>
               This starter app includes a blueprint-driven study map, learn pages for starter KSAs,
               and a modular practice engine with filtering by domain, KSA, cognitive level, and qualifier.
